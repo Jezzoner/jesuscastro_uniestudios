@@ -1,0 +1,40 @@
+[versions]
+agp = "8.8.1"
+kotlin = "2.1.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+googleServiceVersion = "4.4.2"
+firebaseBomVersion = "33.9.0"
+firebaseAnalyticsVersion = "22.2.0"
+firebaseAuthVersion = "23.2.0"
+firebaseStoreVersion = "25.1.2"
+firebaseStorageVersion = "21.0.1"
+firebaseDatabaseKtx = "21.0.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalyticsVersion" }
+firebaseAuthVersion = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuthVersion" }
+firebaseStoreVersion = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseStoreVersion" }
+firebaseStorageVersion = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorageVersion" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+googleService = { id = "com.google.gms.google-services", version.ref = "googleServiceVersion" }

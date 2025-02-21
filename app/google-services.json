@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "635490963265",
+    "project_id": "jesuscastro-uniestudios",
+    "storage_bucket": "jesuscastro-uniestudios.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635490963265:android:7ed4e16dc3704a6633dbc0",
+        "android_client_info": {
+          "package_name": "com.example.jesuscastro_uniestudios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpYUnHMeIn0db17gEadUpk0FoeBvGJ5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
